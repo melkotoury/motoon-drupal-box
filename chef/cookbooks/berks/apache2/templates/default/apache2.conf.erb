@@ -223,6 +223,7 @@ LogFormat "%{User-agent}i" agent
 
 # Include generic snippets of statements
 Include <%= node['apache']['dir'] %>/conf.d/*.conf
+Include <%= node['apache']['dir'] %>/conf-enabled/
 
 # Include the virtual host configurations:
 Include <%= node['apache']['dir'] %>/sites-enabled/
