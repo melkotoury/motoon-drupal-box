@@ -3,7 +3,7 @@ directory "/var/www" do
   group "vagrant"
 end
 
-file "/var/www/index.html" do
+file "/var/www/html/index.html" do
   action :delete
 end
 
