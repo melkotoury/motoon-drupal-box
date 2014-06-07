@@ -34,9 +34,7 @@ modules = [
   "setenvif",
   "auth_basic",
   "authn_file",
-  "authz_default",
   "authz_groupfile",
-  "authz_user"
 ]
 
 modules.each do |mod|
